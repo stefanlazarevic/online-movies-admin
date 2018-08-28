@@ -1,0 +1,82 @@
+<app-header></app-header>
+<div class="container-fluid">
+    <div class="row">
+        <app-navigation class="col-md-2 d-none d-md-block bg-light sidebar"></app-navigation>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <div class="pt-3 pb-2 mb-3 border-bottom">
+                <!-- Page content -->
+                <div class="row">
+                    <!-- Data table -->
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>Edit / Delete</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Data edit form -->
+                <div class="row">
+                    <form class="form">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Movie title</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputState">Category</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <!-- Data table -->
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Edit / Delete</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Data edit form -->
+                <div class="row">
+                    <form class="form">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Category title</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>

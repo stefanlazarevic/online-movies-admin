@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+@for $i from 1 through 12 {
+    .flex-#{$i} {
+        flex: #{$i}
+    }
+}
